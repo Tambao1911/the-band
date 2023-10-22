@@ -1,0 +1,104 @@
+/* Lam phu hợp khung nhìn */
+
+/* Ipad & Mobile */
+@media (max-width:63.9375em) {
+    #content .btn {
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a {
+        padding: 5px 12px;
+        ;
+    }
+    .contact-form .form-contro {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+    .contact-submit-btn{
+        font-size: 16px;
+    }
+    #foolter .socials-list {
+        font-size: 40px;
+    }
+
+    #foolter .socials-list a {
+        margin: 0 2px;
+    }
+}
+
+/* Ipad  >=740px || <1024px*/
+@media (max-width: 63.9375em) and (min-width: 46.25em) {}
+
+/* Mobile <740px */
+@media (max-width:46.1875em) {
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: white;
+        padding: 5px 41px;
+        ;
+    }
+
+    #content .member-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    #foolter .copy-text a {
+        padding: 16px 0;
+        display: inline-block;
+    }
+}
